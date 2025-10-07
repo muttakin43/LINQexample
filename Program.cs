@@ -29,7 +29,7 @@ internal class Program
         Console.WriteLine("");
         //Query Syntax
         var query2 = from p in persons
-                     where p.Age > 25
+                     where p.Age > 27
                      select p;
         foreach (var person in query2)
         {
